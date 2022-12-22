@@ -4,7 +4,7 @@
 }
 
 .x-navbar {
-  background-color: transparent !important;
+  background-color: rgba(250, 250, 250, 0.8) !important;
   moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;

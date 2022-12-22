@@ -29,6 +29,13 @@
   --icon-regular-width-height: 48px;
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 a {
   text-decoration: none;
 }
@@ -48,6 +55,10 @@ a {
 
 body {
   color: var(--gradient-contrast-colour);
+  background-image: url("../assets/everyone.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   background-color: white;
   font-family: "Open Sans", sans-serif;
 }
@@ -83,6 +94,10 @@ footer {
     width: var(--mobile-page-width);
     padding: var(--mobile-padding);
     font-size: var(--mobile-font-size);
+  }
+
+  body {
+    background-size: auto 100% !important;
   }
 }
 

@@ -20,3 +20,17 @@
 .sk-white-icon {
   filter: brightness(0) invert(1);
 }
+
+.half-card {
+  width: 45%;
+  height: auto;
+}
+
+.half-card div {
+  margin: 0 5% 0;
+}
+
+.full-card {
+  width: 100%;
+  height: auto;
+}

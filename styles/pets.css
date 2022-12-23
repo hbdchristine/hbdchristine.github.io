@@ -55,13 +55,11 @@ a {
 
 body {
   color: var(--gradient-contrast-colour);
-  background-image: url("../assets/everyone.png");
-  background-repeat: no-repeat;
+  font-family: "Open Sans", sans-serif;
+  background-image: url("../assets/floral.png");
   background-size: cover;
   background-position: center;
-  background-color: white;
-  background-attachment: fixed;
-  font-family: "Open Sans", sans-serif;
+  background-repeat: repeat-y;
 }
 
 footer {

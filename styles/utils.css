@@ -34,3 +34,16 @@
   width: 100%;
   height: auto;
 }
+
+.white-fade-background {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 66%,
+    rgba(255, 255, 255, 0.95) 85%,
+    rgba(255, 255, 255, 0.66) 95%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  border-radius: var(--border-radius-small);
+  padding: var(--margin-small);
+}

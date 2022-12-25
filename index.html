@@ -4,7 +4,12 @@
     <title>Christine Fans 💕</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
 
-    <audio controls autoplay style="visibility: hidden; display: none">
+    <audio
+      controls
+      autoplay
+      id="music"
+      style="visibility: hidden; display: none"
+    >
       <source
         src="assets/tomp3.cc - The Killers  Mr Brightside Official Music Video.mp3"
         type="audio/mp3"
@@ -42,8 +47,32 @@
           <a class="nav-link x-navbar-link" href="./index.html"
             ><img src="assets/dobby.png" class="x-navbar-brand-image"
           /></a>
-
           <p class="x-navbar-brand">Christine Stanpage</p>
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              padding: 4px 12px;
+              border: solid var(--card-contrast-colour-light);
+              border-radius: 1.5rem;
+            "
+            id="playPause"
+          >
+            <img
+              style="filter: invert(25%)"
+              src="./assets/pause.png"
+              height="16vh"
+              width="16vw"
+              id="playPauseIcon"
+            />
+            <div
+              class="hidden-mobile"
+              style="margin-left: 8px; font-size: 1.05rem"
+              id="playPauseText"
+            >
+              Pause Music
+            </div>
+          </div>
         </div>
         <button
           class="navbar-toggler x-navbar-toggler"
@@ -131,12 +160,27 @@
               <img src="./assets/queenshit.png" width="100%" height="100%" />
             </div>
             <div class="half-card">
-              <h1>She's one with nature, a modern day disney princess 😍</h1>
+              <h1>
+                Christine being one with nature, a modern day disney princess 😍
+              </h1>
             </div>
           </div>
         </div>
       </main>
-      <footer></footer>
+      <footer>
+        <p>Attributions:</p>
+        <div style="display: flex; flex-direction: column">
+          <a
+            href="https://www.flaticon.com/free-icons/pause"
+            title="pause icons"
+            >Pause icons created by IYAHICON - Flaticon</a
+          ><a
+            href="https://www.flaticon.com/free-icons/pause"
+            title="pause icons"
+            >Pause icons created by Debi Alpa Nugraha - Flaticon</a
+          >
+        </div>
+      </footer>
     </div>
 
     <script src="//code.jquery.com/jquery.min.js"></script>
@@ -150,7 +194,6 @@
       integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
       crossorigin="anonymous"
     ></script>
-    <script type="module" src="javascript/index.js"></script>
-    <script type="module" src="javascript/navbarScrollEffect.js"></script>
+    <script type="module" src="src/music.js"></script>
   </body>
 </html>

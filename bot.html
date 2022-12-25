@@ -26,6 +26,7 @@
     <link href="styles/yearbook.css" type="text/css" rel="stylesheet" />
     <link href="styles/nav.css" type="text/css" rel="stylesheet" />
     <link href="styles/utils.css" type="text/css" rel="stylesheet" />
+    <link href="styles/christine-bot.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
     <div class="x-navbar-fixed-top">
@@ -83,12 +84,32 @@
           >
             Ask Christine something:
           </h1>
-          <div class="card sk-center-content full-width sk-row"></div>
+          <div class="paper full-width">
+            <section class="chat">
+        <div class="header-chat">
+          <i class="icon fa fa-user-o" aria-hidden="true"></i>
+          <p class="name">Christine Bot</p>
+          <i class="icon clickable fa fa-ellipsis-h right" aria-hidden="true"></i>
+        </div>
+        <div class="messages-chat" id="chat">
+          <div class="message">
+            <div class="photo">
+            </div>
+            <p class="text"> Hi, how are you ? </p>
+          </div>
+        </div>
+        <div class="footer-chat">
+          <input type="text" class="write-message" placeholder="Type your message here" id="chatInput"></input>
+          <div class="icon send fa fa-paper-plane-o clickable" aria-hidden="true" id="chatSend">Send</div>
+        </div>
+      </section>
+          </div>
         </div>
       </main>
       <footer></footer>
     </div>
 
+    <script src="/src/christineBot.js"></script>
     <script src="//code.jquery.com/jquery.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"

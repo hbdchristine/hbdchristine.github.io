@@ -19,7 +19,7 @@ const textClass = "text";
 const photoClass = "photo";
 
 function getRandomMessage() {
-  randIdx = Math.round(Math.random() * CHAT_RESPONSES.length);
+  randIdx = Math.floor(Math.random() * CHAT_RESPONSES.length);
   return CHAT_RESPONSES[randIdx];
 }
 

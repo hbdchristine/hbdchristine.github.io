@@ -1,5 +1,7 @@
 .chat {
   position: relative;
+  width: 100%;
+  background-color: white;
 }
 
 .messages-chat {
@@ -99,6 +101,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 13pt;
   color: #515151;
+  background-color: white;
 }
 
 .chat .footer-chat .right {

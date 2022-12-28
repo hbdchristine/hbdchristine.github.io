@@ -6,6 +6,12 @@ const CHAT_RESPONSES = [
   `Life is what you “bake” of it`,
   "A circle is round, it has no end, that’s how long I want to be your friend",
   "You’re the spider monkey to my Edward <3",
+  "Life is like a bicycle, to keep your balance, you just keep moving!",
+  "Believe you can and you're halfway there!",
+  "A winner is a dreamer who never gave up!",
+  "Be yourself, everyone else is already taken (plus you rock).",
+  "Keep going & keep growing, you got this!",
+  "Daily reminder to know your worth!",
 ];
 
 const input = document.getElementById("chatInput");
